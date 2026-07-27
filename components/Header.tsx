@@ -8,7 +8,13 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
-  const navLinks = [
+  type NavLink = {
+    href: string;
+    label: string;
+    submenu?: { href: string; label: string }[];
+  };
+
+  const navLinks: NavLink[] = [
     { href: "/", label: "Home" },
     {
       href: "/about",
