@@ -3,34 +3,34 @@ import Link from "next/link";
 export default function Academics() {
   const programs = [
     {
-      title: 'Class Nursery-8th',
-      grade: 'Secondary Education',
-      description: 'A comprehensive curriculum focusing on foundational subjects with emphasis on mathematics, science, languages, and social studies to prepare students for board examinations.',
-      features: ['Vocabulary', 'Practical Learning', 'Sports & Arts', 'Character Development','Computer Classes'],
+      title: 'Nursery & Kindergarten',
+      grade: 'Pre-Primary',
+      description: 'A warm, play-based foundation that builds early literacy, numeracy, social skills, and curiosity for lifelong learning.',
+      features: ['Play-Based Learning', 'Vocabulary Building', 'Rhymes & Stories', 'Motor Skills', 'Character Development'],
     },
     {
-      title: 'Class 9th-10th',
-      grade: 'Secondary Education',
-      description: 'A comprehensive curriculum focusing on foundational subjects with emphasis on mathematics, science, languages, and social studies to prepare students for board examinations.',
-      features: ['Board Preparation', 'Practical Learning', 'Sports & Arts', 'Character Development',"Artificial Inteligence Learning","Cyber Awerness"],
+      title: 'Class 1st–5th',
+      grade: 'Primary Education',
+      description: 'Strong foundations in mathematics, science, languages, and environmental studies with practical learning and creative activities.',
+      features: ['Foundational Literacy & Numeracy', 'Practical Learning', 'Sports & Arts', 'Computer Classes', 'Character Development'],
     },
     {
-      title: 'Class 11th-12th',
-      grade: 'Higher Secondary',
-      description: 'Specialized streams with advanced coursework preparing students for competitive examinations, higher education, and career pathways.',
-      features: ['Science Stream', 'Commerce Stream', 'Arts Stream', 'Career Guidance','Practical Learning','Board Preparation',"Extra Classes", 'Sports & Arts', 'Character Development',"Artificial Inteligence Learning","Cyber Awerness"],
+      title: 'Class 6th–8th',
+      grade: 'Middle School',
+      description: 'A comprehensive upper-primary curriculum that strengthens subject knowledge, critical thinking, and readiness for the next stage of schooling.',
+      features: ['Subject Enrichment', 'Practical Learning', 'Sports & Arts', 'Personality Development', 'Artificial Intelligence Learning', 'Cyber Awareness'],
     },
     {
       title: 'Co-Curricular Activities',
-      grade: 'All Levels',
-      description: 'Holistic development through various activities including sports, arts, music, drama, and leadership programs.',
-      features: ['Sports Programs', 'Arts & Culture', 'Music & Drama', 'Leadership Training',"Quiz Competitions", "Rangoli Competitions","Festivals Celebrations","Summer Camps","Swimming","Drama & Acting Sessions","Personality Development Sessions"],
+      grade: 'Nursery to Class 8th',
+      description: 'Holistic development through sports, arts, music, drama, and leadership programs for every age group.',
+      features: ['Sports Programs', 'Arts & Culture', 'Music & Drama', 'Leadership Training', 'Quiz Competitions', 'Rangoli Competitions', 'Festival Celebrations', 'Summer Camps', 'Swimming', 'Drama & Acting Sessions', 'Personality Development Sessions'],
     },
     {
       title: 'Special Programs',
-      grade: 'All Levels',
-      description: 'Specialized programs for academic excellence, competitive exam preparation, and skill development.',
-      features: ['Olympiad Preparation', 'Competitive Exams', 'Skill Development', 'Summer Camps'],
+      grade: 'Nursery to Class 8th',
+      description: 'Enrichment programs for academic excellence, olympiad readiness, and skill development.',
+      features: ['Olympiad Preparation', 'Skill Development', 'Summer Camps', 'Remedial Support'],
     },
   ];
 
@@ -55,7 +55,7 @@ export default function Academics() {
               Academics
             </h1>
             <p className="text-xl md:text-2xl text-white/95 max-w-2xl mx-auto">
-              Excellence in Education Across All Levels
+              Excellence in Education from Nursery to Class 8th
             </p>
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mt-4">
               Comprehensive curriculum designed for holistic development
@@ -118,12 +118,12 @@ export default function Academics() {
               {[
                 {
                   subject: 'Science',
-                  description: 'Physics, Chemistry, Biology with hands-on laboratory experiences and practical applications.',
+                  description: 'General science and environmental studies with hands-on experiments suited for primary and middle school.',
                   icon: '🔬',
                 },
                 {
                   subject: 'Mathematics',
-                  description: 'Comprehensive math curriculum from fundamentals to advanced topics with problem-solving focus.',
+                  description: 'Strong numeracy skills from basics to middle-school problem solving, with conceptual clarity.',
                   icon: '📐',
                 },
                 {
@@ -133,12 +133,12 @@ export default function Academics() {
                 },
                 {
                   subject: 'Social Studies',
-                  description: 'History, Geography, Civics, and Economics to understand society and global perspectives.',
+                  description: 'History, Geography, and Civics to understand society, culture, and the world around us.',
                   icon: '🌍',
                 },
                 {
                   subject: 'Computer Science',
-                  description: 'Modern technology, programming, and digital literacy for the digital age.',
+                  description: 'Age-appropriate digital literacy, computer basics, and safe technology use.',
                   icon: '💻',
                 },
                 {

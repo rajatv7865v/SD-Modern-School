@@ -101,7 +101,7 @@ export default function PrivacyPolicy() {
               8. Contact Us
             </h2>
             <p className="mb-6 text-base sm:text-lg leading-relaxed">
-              For any questions regarding this Privacy Policy or our data practices, please contact us at info@sdmodern.com or visit our Contact page for more details.
+              For any questions regarding this Privacy Policy or our data practices, please contact us at sdmodernnoida@gmail.com or visit our Contact page for more details.
             </p>
           </div>
         </div>

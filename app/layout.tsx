@@ -11,8 +11,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "S.D Modern School - Premier Educational Institution",
-  description: "S.D Modern School - A leading educational institution committed to academic excellence and holistic development",
+  title: "S.D Modern School - Nursery to Class 8th",
+  description: "S.D Modern School, Gijhore Sector 53 Noida — quality education from Nursery to Class 8th with holistic development",
 };
 
 export default function RootLayout({

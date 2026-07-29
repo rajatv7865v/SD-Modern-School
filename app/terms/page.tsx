@@ -109,7 +109,7 @@ export default function TermsAndConditions() {
               10. Contact
             </h2>
             <p className="mb-6 text-base sm:text-lg leading-relaxed">
-              For questions about these Terms and Conditions, please contact us at info@sdmodern.com or visit our Contact page.
+              For questions about these Terms and Conditions, please contact us at sdmodernnoida@gmail.com or visit our Contact page.
             </p>
           </div>
         </div>

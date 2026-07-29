@@ -63,20 +63,20 @@ export default function Downloads() {
     {
       id: 6,
       category: 'academic',
-      title: 'Syllabus - Class 9-10',
-      description: 'Complete syllabus for classes 9 and 10',
+      title: 'Syllabus - Nursery to Class 5',
+      description: 'Complete syllabus for pre-primary and primary classes',
       fileType: 'PDF',
-      size: '1.2 MB',
+      size: '1.0 MB',
       date: '2024-01-18',
       downloadUrl: '#',
     },
     {
       id: 7,
       category: 'academic',
-      title: 'Syllabus - Class 11-12',
-      description: 'Complete syllabus for classes 11 and 12',
+      title: 'Syllabus - Class 6 to 8',
+      description: 'Complete syllabus for middle school classes 6, 7, and 8',
       fileType: 'PDF',
-      size: '1.5 MB',
+      size: '1.2 MB',
       date: '2024-01-18',
       downloadUrl: '#',
     },
@@ -186,22 +186,22 @@ export default function Downloads() {
     {
       id: 18,
       category: 'prospectus',
-      title: 'School Prospectus 2024-25',
-      description: 'Complete school prospectus with all information',
+      title: 'School Brochure — Front',
+      description: 'Front page of the school brochure',
       fileType: 'PDF',
-      size: '3.5 MB',
-      date: '2024-01-19',
-      downloadUrl: '#',
+      size: '4.7 MB',
+      date: '2026-07-28',
+      downloadUrl: '/images/Front.pdf',
     },
     {
       id: 19,
       category: 'prospectus',
-      title: 'Infrastructure Brochure',
-      description: 'Detailed information about school facilities',
+      title: 'School Brochure — Back',
+      description: 'Back page of the school brochure',
       fileType: 'PDF',
-      size: '2.1 MB',
-      date: '2024-01-21',
-      downloadUrl: '#',
+      size: '4.4 MB',
+      date: '2026-07-28',
+      downloadUrl: '/images/Back.pdf',
     },
     {
       id: 20,
@@ -244,9 +244,11 @@ export default function Downloads() {
   };
 
   const handleDownload = (item: typeof downloadItems[0]) => {
-    // In a real application, this would trigger the actual download
-    alert(`Downloading: ${item.title}`);
-    // window.open(item.downloadUrl, '_blank');
+    if (!item.downloadUrl || item.downloadUrl === '#') {
+      alert(`${item.title} will be available soon.`);
+      return;
+    }
+    window.open(item.downloadUrl, '_blank');
   };
 
   return (
@@ -299,6 +301,43 @@ export default function Downloads() {
           </div>
         </div>
       </section>
+
+      {/* Brochure Preview */}
+      {(selectedCategory === 'all' || selectedCategory === 'prospectus') && (
+        <section className="py-16 bg-white border-b border-gray-100">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">School Brochure</h2>
+              <p className="text-gray-600">Preview the front and back pages below</p>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+              {[
+                { title: 'Front', src: '/images/Front.pdf' },
+                { title: 'Back', src: '/images/Back.pdf' },
+              ].map((doc) => (
+                <div key={doc.src} className="rounded-lg shadow-md overflow-hidden border border-gray-100">
+                  <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100 bg-gray-50">
+                    <h3 className="font-semibold text-gray-900">{doc.title}</h3>
+                    <a
+                      href={doc.src}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm font-semibold text-primary-600 hover:text-primary-700"
+                    >
+                      Open / Download →
+                    </a>
+                  </div>
+                  <iframe
+                    src={`${doc.src}#toolbar=0&navpanes=0`}
+                    title={`School brochure ${doc.title}`}
+                    className="w-full h-[520px] md:h-[640px] bg-gray-100"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Downloads List */}
       <section className="py-16 bg-gray-50">
@@ -392,7 +431,7 @@ export default function Downloads() {
                   Contact Us
                 </a>
                 <a
-                  href="mailto:info@sdmodern.com"
+                  href="mailto:sdmodernnoida@gmail.com"
                   className="border-2 border-primary-600 text-primary-600 px-6 py-3 rounded-lg font-semibold hover:bg-primary-50 transition-colors inline-flex items-center gap-2"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

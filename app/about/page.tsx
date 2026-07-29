@@ -74,9 +74,9 @@ export default function About() {
       icon: "💰",
     },
     {
-      title: "Career Guidance",
+      title: "Student Guidance",
       description:
-        "Comprehensive career counseling and guidance for students' future pathways.",
+        "Personal and academic guidance to help every child grow confidently from Nursery through Class 8th.",
       icon: "🎯",
     },
     {

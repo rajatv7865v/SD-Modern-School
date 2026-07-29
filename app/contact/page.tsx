@@ -57,14 +57,14 @@ export default function Contact() {
    
     {
       title: 'Email',
-      content: 'info@sdmodern.com',
+      content: 'sdmodernnoida@gmail.com',
       secondary: 'Official Mail',
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      link: 'mailto:info@sdmodern.com',
+      link: 'mailto:sdmodernnoida@gmail.com',
     },
     {
       title: 'Office Hours',
@@ -286,8 +286,8 @@ export default function Contact() {
                         Contact
                       </h3>
                       <div className="text-gray-700 space-y-1">
-                        <p>Official Email: <a href="mailto:info@sdmodern.com" className="text-primary-600 hover:underline">info@sdmodern.com</a></p>
-                        <p>Support Email: <a href="mailto:info@sdmodern.com" className="text-primary-600 hover:underline">info@sdmodern.com</a></p>
+                        <p>Official Email: <a href="mailto:sdmodernnoida@gmail.com" className="text-primary-600 hover:underline">sdmodernnoida@gmail.com</a></p>
+                        <p>Support Email: <a href="mailto:sdmodernnoida@gmail.com" className="text-primary-600 hover:underline">sdmodernnoida@gmail.com</a></p>
                         <p>Phone: <a href="tel:+918448776603" className="text-primary-600 hover:underline">084487 76603</a></p>
                       </div>
                     </div>

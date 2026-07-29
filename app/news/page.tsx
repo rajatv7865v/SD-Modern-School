@@ -36,10 +36,10 @@ export default function News() {
     },
     {
       id: 5,
-      title: 'College Acceptance Letters Arrive',
+      title: 'Class 8 Farewell & Annual Results',
       date: 'February 28, 2024',
       category: 'Achievements',
-      excerpt: 'Seniors celebrate college acceptances with 98% of graduates accepted to their first-choice universities.',
+      excerpt: 'Our Class 8 students celebrated a successful year with excellent annual results and a memorable farewell ceremony.',
       image: '🎓',
     },
     {
@@ -57,7 +57,7 @@ export default function News() {
     { date: 'April 12', title: 'Spring Sports Day', time: '9:00 AM - 3:00 PM' },
     { date: 'April 20', title: 'Art Exhibition Opening', time: '6:00 PM' },
     { date: 'May 1', title: 'Spring Musical Performance', time: '7:00 PM' },
-    { date: 'May 15', title: 'Graduation Ceremony', time: '2:00 PM' },
+    { date: 'May 15', title: 'Annual Day & Class 8 Farewell', time: '2:00 PM' },
   ];
 
   return (

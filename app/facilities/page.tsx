@@ -12,7 +12,7 @@ export default function Facilities() {
     },
     {
       title: 'Hybrid Library',
-      description: 'Hybrid library with separate sections for juniors, seniors, and teachers. Holds a rich collection of printed as well as electronic resources including books, journals, and digital media.',
+      description: 'Hybrid library with separate sections for juniors, middle classes, and teachers. Holds a rich collection of printed as well as electronic resources including books, journals, and digital media.',
       icon: '📚',
       image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=600&fit=crop&auto=format',
       features: ['Extensive Book Collection', 'Digital Resources', 'Reading Areas', 'Research Support'],

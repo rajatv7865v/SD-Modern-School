@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Carousel from '@/components/Carousel';
 import Image from 'next/image';
+import { homeGalleryPreview } from '@/lib/studentGallery';
 
 export default function Home() {
   return (
@@ -38,8 +39,72 @@ export default function Home() {
         </div>
       </section>
 
+      {/* School Brochure */}
+      <section className="relative py-20 overflow-hidden bg-gradient-to-b from-primary-50 via-white to-gray-50">
+        <div className="pointer-events-none absolute inset-0 opacity-[0.35]"
+          style={{
+            backgroundImage:
+              'radial-gradient(circle at 1px 1px, rgb(148 163 184 / 0.35) 1px, transparent 0)',
+            backgroundSize: '28px 28px',
+          }}
+        />
+        <div className="relative container mx-auto px-4">
+          <div className="text-center mb-14">
+            <p className="text-sm font-semibold tracking-[0.2em] uppercase text-primary-600 mb-3">
+              Prospectus
+            </p>
+            <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+              School Brochure
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Explore our brochure cover — front and back pages, sized to match the original layout.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-10 max-w-7xl mx-auto">
+            {[
+              { title: 'Front Cover', src: '/images/Front.pdf' },
+              { title: 'Back Cover', src: '/images/Back.pdf' },
+            ].map((doc) => (
+              <article
+                key={doc.src}
+                className="group relative rounded-2xl bg-white p-3 md:p-4 shadow-[0_20px_50px_-24px_rgba(15,23,42,0.45)] ring-1 ring-gray-200/80 transition duration-300 hover:-translate-y-1 hover:shadow-[0_28px_60px_-24px_rgba(15,23,42,0.5)]"
+              >
+                <div className="mb-3 flex items-center justify-between gap-3 px-1">
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900">{doc.title}</h3>
+                    <p className="text-xs text-gray-500">Landscape brochure page</p>
+                  </div>
+                  <a
+                    href={doc.src}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-full bg-primary-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-primary-700"
+                  >
+                    <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                    Download
+                  </a>
+                </div>
+
+                {/* Exact cover ratio: 1368 × 936 */}
+                <div className="relative overflow-hidden rounded-xl bg-slate-100 ring-1 ring-inset ring-black/5 aspect-[1368/936]">
+                  <iframe
+                    src={`${doc.src}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
+                    title={`School brochure ${doc.title}`}
+                    className="absolute inset-0 h-full w-full border-0"
+                  />
+                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-white/40" />
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Features Grid */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">Our Facilities</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -67,7 +132,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Hybrid Library</h3>
               <p className="text-gray-600 mb-4">
-                Hybrid library with separate sections for juniors, seniors, and teachers. Holds a rich 
+                Hybrid library with separate sections for juniors, middle classes, and teachers. Holds a rich 
                 collection of printed as well as electronic resources.
               </p>
               <Link href="/academics" className="text-primary-600 font-semibold hover:text-primary-700">
@@ -159,16 +224,7 @@ export default function Home() {
 
     {/* Gallery Grid */}
     <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-      {[
-        'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=600&fit=crop&auto=format',
-        'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&h=600&fit=crop&auto=format',
-        'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=600&fit=crop&auto=format',
-        'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=600&fit=crop&auto=format',
-        'https://images.unsplash.com/photo-1519766304817-4f37bda74a26?w=800&h=600&fit=crop&auto=format',
-        'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800&h=600&fit=crop&auto=format',
-        'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop&auto=format',
-        'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=600&fit=crop&auto=format',
-      ].map((item, index) => (
+      {homeGalleryPreview.map((item, index) => (
         <Link
           key={item}
           href="/gallery"
@@ -177,7 +233,7 @@ export default function Home() {
           {/* Image */}
           <Image
             src={item}
-            alt={`Gallery ${index + 1}`}
+            alt={`School gallery ${index + 1}`}
             width={400}
             height={300}
             className="w-full h-60 object-cover transform group-hover:scale-110 transition duration-500 ease-in-out"
@@ -189,7 +245,7 @@ export default function Home() {
           {/* Hover Text */}
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
             <span className="text-white text-lg font-semibold tracking-wide">
-             Event Images
+             School Moments
             </span>
           </div>
         </Link>

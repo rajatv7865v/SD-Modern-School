@@ -5,13 +5,13 @@ export default function AboutAcademics() {
     {
       year: "2024",
       title: "100% Pass Rate",
-      description: "All students successfully passed their board examinations",
+      description: "All students successfully passed their annual examinations",
       icon: "🎓",
     },
     {
       year: "2023",
       title: "Top 10 Rankings",
-      description: "Multiple students secured top 10 positions in state board exams",
+      description: "Multiple students secured top ranks in school and inter-school exams",
       icon: "🏆",
     },
     {
@@ -50,7 +50,7 @@ export default function AboutAcademics() {
     {
       title: "Practical Application",
       description:
-        "Learning extends beyond textbooks. We emphasize real-world applications through experiments, projects, field trips, and internships that connect classroom knowledge to practical scenarios.",
+        "Learning extends beyond textbooks. We emphasize real-world applications through experiments, projects, and educational trips that connect classroom knowledge to everyday life.",
       icon: "🔬",
     },
   ];
@@ -176,7 +176,7 @@ export default function AboutAcademics() {
               <p className="text-gray-700 leading-relaxed">
                 To be recognized as a leader in academic excellence, innovation in
                 education, and student achievement, setting benchmarks for quality
-                education and producing graduates who excel in their chosen fields.
+                education and nurturing students who excel in academics and life ahead.
               </p>
             </div>
           </div>

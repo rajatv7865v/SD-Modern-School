@@ -251,7 +251,7 @@ export default function Admissions() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="grade" className="block text-sm font-medium text-gray-700 mb-2">
-                    Grade Level *
+                    Class Applying For *
                   </label>
                   <select
                     id="grade"
@@ -261,10 +261,17 @@ export default function Admissions() {
                     onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   >
-                    <option value="">Select Grade</option>
-                    <option value="k-5">Elementary (K-5)</option>
-                    <option value="6-8">Middle School (6-8)</option>
-                    <option value="9-12">High School (9-12)</option>
+                    <option value="">Select Class</option>
+                    <option value="nursery">Nursery</option>
+                    <option value="kg">Kindergarten (KG)</option>
+                    <option value="1">Class 1</option>
+                    <option value="2">Class 2</option>
+                    <option value="3">Class 3</option>
+                    <option value="4">Class 4</option>
+                    <option value="5">Class 5</option>
+                    <option value="6">Class 6</option>
+                    <option value="7">Class 7</option>
+                    <option value="8">Class 8</option>
                   </select>
                 </div>
                 <div>
@@ -279,10 +286,10 @@ export default function Admissions() {
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   >
                     <option value="">Select Program</option>
-                    <option value="general">General Program</option>
-                    <option value="stem">STEM Focus</option>
-                    <option value="arts">Arts & Humanities</option>
-                    <option value="sports">Athletics</option>
+                    <option value="general">Regular Academic Program</option>
+                    <option value="activity">Sports & Activities</option>
+                    <option value="arts">Arts & Culture</option>
+                    <option value="computer">Computer Classes</option>
                   </select>
                 </div>
               </div>
