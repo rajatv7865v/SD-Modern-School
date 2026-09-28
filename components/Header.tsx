@@ -21,15 +21,13 @@ export default function Header() {
       label: "About Us",
     },
    
-    {
-      href: "/facilities",
-      label: "Facilities",
-    },
-    
     { href: "/trust", label: "Trust & Society" },
-    { href: "/academic-planner", label: "Planner & Governance" },
+    { href: "/academic-planner", label: "Academic Planner" },
+    { href: "/fee-structure", label: "Fee Structure" },
+    { href: "/governance", label: "SMC & Committees" },
+    { href: "/facilities", label: "Facilities" },
     { href: "/downloads", label: "Downloads" },
-    { href: "/gallery", label: "Photo Gallery" },
+    { href: "/gallery", label: "Gallery" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -149,18 +147,18 @@ export default function Header() {
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-4">
+            <div className="hidden lg:flex items-center space-x-0.5 xl:space-x-2">
               {navLinks.map((link) => (
                 <div key={link.label || link.href} className="relative group">
                   {link.submenu ? (
                     <>
                       <button
                         onClick={() => handleDropdownToggle(link.label)}
-                        className="text-gray-700 hover:text-primary-600 font-medium transition-colors px-3 py-2"
+                        className="text-gray-700 hover:text-primary-600 font-medium transition-colors px-2 xl:px-3 py-2 text-xs xl:text-sm whitespace-nowrap"
                       >
                         {link.label}
                         <svg
-                          className="inline-block ml-1 w-4 h-4"
+                          className="inline-block ml-1 w-3.5 h-3.5"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
@@ -191,7 +189,7 @@ export default function Header() {
                   ) : (
                     <Link
                       href={link.href || "#"}
-                      className="text-gray-700 hover:text-primary-600 font-medium transition-colors px-3 py-2 block"
+                      className="text-gray-700 hover:text-primary-600 font-medium transition-colors px-2 xl:px-2.5 py-1.5 rounded-md hover:bg-gray-50 text-xs xl:text-sm whitespace-nowrap block"
                     >
                       {link.label}
                     </Link>

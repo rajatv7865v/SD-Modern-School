@@ -59,7 +59,17 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/academic-planner" className="hover:text-white transition-colors">
-                  Academic Planner & SMC
+                  Yearly Planner (2026–27)
+                </Link>
+              </li>
+              <li>
+                <Link href="/fee-structure" className="hover:text-white transition-colors">
+                  Fee Structure (2026–27)
+                </Link>
+              </li>
+              <li>
+                <Link href="/governance" className="hover:text-white transition-colors">
+                  SMC & Committees
                 </Link>
               </li>
               <li>
@@ -91,12 +101,27 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
                 <Link href="/admissions" className="hover:text-white transition-colors">
-                  Addmission Procedure
+                  Admission Procedure
+                </Link>
+              </li>
+              <li>
+                <Link href="/academic-planner" className="hover:text-white transition-colors">
+                  Yearly Academic Planner
+                </Link>
+              </li>
+              <li>
+                <Link href="/fee-structure" className="hover:text-white transition-colors">
+                  Fee Structure
+                </Link>
+              </li>
+              <li>
+                <Link href="/governance" className="hover:text-white transition-colors">
+                  School Management (SMC)
                 </Link>
               </li>
               <li>
                 <Link href="/academics" className="hover:text-white transition-colors">
-                Academic Information
+                  Academic Information
                 </Link>
               </li>
               <li>

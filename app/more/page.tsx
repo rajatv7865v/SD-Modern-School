@@ -46,8 +46,42 @@ export default function More() {
                   </svg>
                 </span>
                 <div className="text-left min-w-0 flex-1">
-                  <span className="block font-semibold text-gray-800">Academic Planner &amp; Governance (2026–27)</span>
-                  <span className="block text-sm text-gray-500 mt-0.5">Yearly Planner, Student Count, Fees, SMC &amp; PTA</span>
+                  <span className="block font-semibold text-gray-800">Yearly Academic Planner (2026–27)</span>
+                  <span className="block text-sm text-gray-500 mt-0.5">Month-by-month exams, holidays, and activities</span>
+                </div>
+                <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
+                href="/fee-structure"
+                className="flex items-center gap-4 w-full p-4 sm:p-5 rounded-xl border border-gray-200 bg-white hover:border-primary-300 hover:bg-primary-50/50 transition-colors touch-manipulation active:scale-[0.98]"
+              >
+                <span className="flex-shrink-0 w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                </span>
+                <div className="text-left min-w-0 flex-1">
+                  <span className="block font-semibold text-gray-800">Fee Structure (2026–27)</span>
+                  <span className="block text-sm text-gray-500 mt-0.5">Class-wise monthly fee schedule &amp; payment info</span>
+                </div>
+                <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
+                href="/governance"
+                className="flex items-center gap-4 w-full p-4 sm:p-5 rounded-xl border border-gray-200 bg-white hover:border-primary-300 hover:bg-primary-50/50 transition-colors touch-manipulation active:scale-[0.98]"
+              >
+                <span className="flex-shrink-0 w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                </span>
+                <div className="text-left min-w-0 flex-1">
+                  <span className="block font-semibold text-gray-800">School Management &amp; Committees</span>
+                  <span className="block text-sm text-gray-500 mt-0.5">SMC, PTA Executive Committee &amp; Student Strength</span>
                 </div>
                 <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

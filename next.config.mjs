@@ -15,6 +15,21 @@ const nextConfig = {
         destination: '/trust',
         permanent: true,
       },
+      {
+        source: '/fees',
+        destination: '/fee-structure',
+        permanent: true,
+      },
+      {
+        source: '/committees',
+        destination: '/governance',
+        permanent: true,
+      },
+      {
+        source: '/smc',
+        destination: '/governance',
+        permanent: true,
+      },
     ];
   },
 };
