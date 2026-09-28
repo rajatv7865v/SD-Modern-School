@@ -58,7 +58,8 @@ school website/
 │   ├── academics/      # Academics page
 │   ├── admissions/     # Admissions page
 │   ├── contact/        # Contact page
-│   ├── faculty/        # Faculty page
+│   ├── trust/          # Trust & Society (Parmal Singh Welfare and Educational Trust)
+│   ├── academic-planner/# Academic Planner & Governance (Yearly Planner, Fees, SMC, PTA)
 │   ├── gallery/        # Gallery page
 │   ├── news/           # News & Events page
 │   ├── portal/         # Student Portal

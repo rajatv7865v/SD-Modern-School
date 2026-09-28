@@ -216,7 +216,8 @@ export default function Contact() {
                         <option value="admissions">Admissions Inquiry</option>
                         <option value="general">General Information</option>
                         <option value="academics">Academic Programs</option>
-                        <option value="faculty">Faculty & Staff</option>
+                        <option value="trust">Trust & Management</option>
+                        <option value="planner">Yearly Planner & Governance</option>
                         <option value="facilities">Facilities & Infrastructure</option>
                         <option value="support">Technical Support</option>
                         <option value="other">Other</option>

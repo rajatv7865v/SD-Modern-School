@@ -15,7 +15,7 @@ export default function Carousel() {
       overlayClass: 'bg-gradient-to-br from-primary-900/75 via-primary-800/70 to-primary-900/75',
       links: [
         { href: '/about', label: 'More About Us' },
-        { href: '/about', label: 'Our Philosophy' },
+        { href: '/trust', label: 'Trust & Society' },
         { href: '/academics', label: 'Teaching Methodology' },
         { href: '/about', label: 'Awards' },
       ],
@@ -28,8 +28,8 @@ export default function Carousel() {
       overlayClass: 'bg-gradient-to-br from-primary-800/75 via-primary-700/70 to-primary-900/75',
       links: [
         { href: '/admissions', label: 'Admission Procedure' },
-        { href: '/academics', label: 'Academic Programs' },
-        { href: '/faculty', label: 'Meet Our Faculty' },
+        { href: '/academic-planner', label: 'Academic Planner 2026–27' },
+        { href: '/trust', label: 'Trust & Management' },
         { href: '/contact', label: 'Contact Us' },
       ],
     },

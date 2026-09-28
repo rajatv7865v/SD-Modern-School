@@ -26,7 +26,8 @@ export default function Header() {
       label: "Facilities",
     },
     
-    // { href: "/faculty", label: "Faculty" },
+    { href: "/trust", label: "Trust & Society" },
+    { href: "/academic-planner", label: "Planner & Governance" },
     { href: "/downloads", label: "Downloads" },
     { href: "/gallery", label: "Photo Gallery" },
     { href: "/contact", label: "Contact" },

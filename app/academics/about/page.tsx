@@ -293,10 +293,10 @@ export default function AboutAcademics() {
             </div>
             <div className="text-center mt-8">
               <Link
-                href="/faculty"
+                href="/academic-planner"
                 className="inline-block bg-primary-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-primary-700 transition-colors"
               >
-                Meet Our Faculty
+                View Academic Planner & Governance
               </Link>
             </div>
           </div>

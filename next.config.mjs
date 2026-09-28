@@ -8,6 +8,15 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/faculty',
+        destination: '/trust',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

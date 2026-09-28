@@ -53,8 +53,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/faculty" className="hover:text-white transition-colors">
-                  Staff Profile
+                <Link href="/trust" className="hover:text-white transition-colors">
+                  Trust & Society
+                </Link>
+              </li>
+              <li>
+                <Link href="/academic-planner" className="hover:text-white transition-colors">
+                  Academic Planner & SMC
                 </Link>
               </li>
               <li>

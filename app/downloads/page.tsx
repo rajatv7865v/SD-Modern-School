@@ -53,12 +53,12 @@ export default function Downloads() {
     {
       id: 5,
       category: 'academic',
-      title: 'Academic Calendar 2024-25',
-      description: 'Complete academic calendar for the year',
+      title: 'Yearly Academic Planner & Governance (2026–27)',
+      description: 'Official academic yearly planner, student strength, fee structure, PTA & SMC rosters',
       fileType: 'PDF',
-      size: '356 KB',
-      date: '2024-01-20',
-      downloadUrl: '#',
+      size: '437 KB',
+      date: '2026-04-01',
+      downloadUrl: '/documents/school-academic-governance-2026-27.pdf',
     },
     {
       id: 6,
@@ -206,12 +206,12 @@ export default function Downloads() {
     {
       id: 20,
       category: 'prospectus',
-      title: 'Faculty & Programs Guide',
-      description: 'Information about faculty and academic programs',
+      title: 'Official Trust Deed (Registered 2014)',
+      description: 'Complete 18-page registered trust deed of Parmal Singh Welfare and Educational Trust',
       fileType: 'PDF',
-      size: '1.8 MB',
-      date: '2024-01-23',
-      downloadUrl: '#',
+      size: '7.0 MB',
+      date: '2014-06-30',
+      downloadUrl: '/documents/trust-deed.pdf',
     },
   ];
 
