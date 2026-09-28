@@ -73,6 +73,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/building-safety-certificate" className="hover:text-white transition-colors">
+                  Building Safety Certificate
+                </Link>
+              </li>
+              <li>
                 <Link href="/water-sanitation-certificate" className="hover:text-white transition-colors">
                   Water & Sanitation Certificate
                 </Link>
@@ -122,6 +127,11 @@ export default function Footer() {
               <li>
                 <Link href="/governance" className="hover:text-white transition-colors">
                   School Management (SMC)
+                </Link>
+              </li>
+              <li>
+                <Link href="/building-safety-certificate" className="hover:text-white transition-colors">
+                  Building Safety Certificate
                 </Link>
               </li>
               <li>

@@ -45,6 +45,26 @@ const nextConfig = {
         destination: '/water-sanitation-certificate',
         permanent: true,
       },
+      {
+        source: '/building-safety',
+        destination: '/building-safety-certificate',
+        permanent: true,
+      },
+      {
+        source: '/building-certificate',
+        destination: '/building-safety-certificate',
+        permanent: true,
+      },
+      {
+        source: '/safety-certificate',
+        destination: '/building-safety-certificate',
+        permanent: true,
+      },
+      {
+        source: '/nbc-certificate',
+        destination: '/building-safety-certificate',
+        permanent: true,
+      },
     ];
   },
 };

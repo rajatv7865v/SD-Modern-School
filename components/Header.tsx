@@ -24,7 +24,14 @@ export default function Header() {
     { href: "/academic-planner", label: "Academic Planner" },
     { href: "/fee-structure", label: "Fee Structure" },
     { href: "/governance", label: "Governance" },
-    { href: "/water-sanitation-certificate", label: "Water & Sanitation" },
+    {
+      href: "/building-safety-certificate",
+      label: "Certificates",
+      submenu: [
+        { href: "/building-safety-certificate", label: "Building Safety Certificate" },
+        { href: "/water-sanitation-certificate", label: "Water & Sanitation Certificate" },
+      ],
+    },
     { href: "/facilities", label: "Facilities" },
     { href: "/downloads", label: "Downloads" },
     { href: "/gallery", label: "Gallery" },
@@ -149,7 +156,16 @@ export default function Header() {
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-0.5 xl:space-x-2">
               {navLinks.map((link) => (
-                <div key={link.label || link.href} className="relative group">
+                <div
+                  key={link.label || link.href}
+                  className="relative group"
+                  onMouseEnter={() => {
+                    if (link.submenu) setOpenDropdown(link.label);
+                  }}
+                  onMouseLeave={() => {
+                    if (link.submenu) setOpenDropdown(null);
+                  }}
+                >
                   {link.submenu ? (
                     <>
                       <button

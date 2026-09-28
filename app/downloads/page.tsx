@@ -167,6 +167,17 @@ export default function Downloads() {
     },
     // Certificates
     {
+      id: 53,
+      category: 'certificates',
+      title: 'Building Safety Certificate (2026–29)',
+      description: 'Official Annexure-D NBC-2016 certificate issued by Rural Engineering Department, Gautam Buddh Nagar',
+      fileType: 'PDF',
+      size: '725 KB',
+      date: '2026-09-23',
+      downloadUrl: '/documents/building-safety-certificate.pdf',
+      pageUrl: '/building-safety-certificate',
+    },
+    {
       id: 52,
       category: 'certificates',
       title: 'Safe Drinking Water & Sanitary Condition Certificate (2026–27)',

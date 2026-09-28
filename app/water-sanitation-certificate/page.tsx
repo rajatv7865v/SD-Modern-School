@@ -300,10 +300,16 @@ export default function WaterSanitationCertificatePage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
-              href="/fee-structure"
+              href="/building-safety-certificate"
               className="bg-white text-primary-800 hover:bg-primary-50 px-6 py-2.5 rounded-lg font-bold text-sm transition-all shadow-lg"
             >
-              Fee Structure (2026–27) →
+              Building Safety Certificate →
+            </Link>
+            <Link
+              href="/fee-structure"
+              className="bg-primary-700/80 hover:bg-primary-700 text-white border border-primary-500 px-6 py-2.5 rounded-lg font-semibold text-sm transition-all"
+            >
+              Fee Structure (2026–27)
             </Link>
             <Link
               href="/academic-planner"
@@ -312,10 +318,10 @@ export default function WaterSanitationCertificatePage() {
               Yearly Academic Planner
             </Link>
             <Link
-              href="/trust"
+              href="/governance"
               className="bg-primary-700/80 hover:bg-primary-700 text-white border border-primary-500 px-6 py-2.5 rounded-lg font-semibold text-sm transition-all"
             >
-              Trust &amp; Society
+              School Management (SMC)
             </Link>
           </div>
         </div>
