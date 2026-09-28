@@ -151,7 +151,8 @@ export default function TrustPage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url(/images/school.jpeg)",
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1920&h=1080&fit=crop&auto=format)",
           }}
         >
           <div className="absolute inset-0 bg-black/55" />

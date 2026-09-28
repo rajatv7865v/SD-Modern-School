@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function Downloads() {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -38,6 +39,7 @@ export default function Downloads() {
       size: '224 KB',
       date: '2026-04-01',
       downloadUrl: '/documents/fee-structure-2026-27.pdf',
+      pageUrl: '/fee-structure',
     },
     {
       id: 4,
@@ -59,6 +61,7 @@ export default function Downloads() {
       size: '261 KB',
       date: '2026-04-01',
       downloadUrl: '/documents/yearly-planner-2026-27.pdf',
+      pageUrl: '/academic-planner',
     },
     {
       id: 51,
@@ -69,6 +72,7 @@ export default function Downloads() {
       size: '437 KB',
       date: '2026-04-01',
       downloadUrl: '/documents/school-academic-governance-2026-27.pdf',
+      pageUrl: '/governance',
     },
     {
       id: 6,
@@ -163,6 +167,17 @@ export default function Downloads() {
     },
     // Certificates
     {
+      id: 52,
+      category: 'certificates',
+      title: 'Safe Drinking Water & Sanitary Condition Certificate (2026–27)',
+      description: 'Official certificate No. 153 issued by CMO Office G.B. Nagar with water lab test report',
+      fileType: 'PDF',
+      size: '1.2 MB',
+      date: '2026-08-07',
+      downloadUrl: '/documents/safe-drinking-water-and-sanitary-condition-certificate.pdf',
+      pageUrl: '/water-sanitation-certificate',
+    },
+    {
       id: 15,
       category: 'certificates',
       title: 'Transfer Certificate Format',
@@ -222,6 +237,7 @@ export default function Downloads() {
       size: '7.0 MB',
       date: '2014-06-30',
       downloadUrl: '/documents/trust-deed.pdf',
+      pageUrl: '/trust',
     },
   ];
 
@@ -400,15 +416,28 @@ export default function Downloads() {
                             </div>
                           </div>
                         </div>
-                        <button
-                          onClick={() => handleDownload(item)}
-                          className="bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors flex items-center gap-2 shadow-md hover:shadow-lg flex-shrink-0"
-                        >
-                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                          </svg>
-                          Download
-                        </button>
+                        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 flex-shrink-0">
+                          {item.pageUrl && (
+                            <Link
+                              href={item.pageUrl}
+                              className="bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-1.5 text-sm"
+                            >
+                              <span>View Page</span>
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                              </svg>
+                            </Link>
+                          )}
+                          <button
+                            onClick={() => handleDownload(item)}
+                            className="bg-primary-600 text-white px-5 sm:px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors flex items-center justify-center gap-2 shadow-md hover:shadow-lg text-sm sm:text-base"
+                          >
+                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                            </svg>
+                            Download
+                          </button>
+                        </div>
                       </div>
                     </div>
                   ))}

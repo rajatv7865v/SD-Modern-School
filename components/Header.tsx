@@ -20,11 +20,11 @@ export default function Header() {
       href: "/about",
       label: "About Us",
     },
-   
     { href: "/trust", label: "Trust & Society" },
     { href: "/academic-planner", label: "Academic Planner" },
     { href: "/fee-structure", label: "Fee Structure" },
-    { href: "/governance", label: "SMC & Committees" },
+    { href: "/governance", label: "Governance" },
+    { href: "/water-sanitation-certificate", label: "Water & Sanitation" },
     { href: "/facilities", label: "Facilities" },
     { href: "/downloads", label: "Downloads" },
     { href: "/gallery", label: "Gallery" },
@@ -189,7 +189,7 @@ export default function Header() {
                   ) : (
                     <Link
                       href={link.href || "#"}
-                      className="text-gray-700 hover:text-primary-600 font-medium transition-colors px-2 xl:px-2.5 py-1.5 rounded-md hover:bg-gray-50 text-xs xl:text-sm whitespace-nowrap block"
+                      className="text-gray-700 hover:text-primary-600 font-medium transition-colors px-1.5 xl:px-2.5 py-1.5 rounded-md hover:bg-gray-50 text-xs xl:text-sm whitespace-nowrap block"
                     >
                       {link.label}
                     </Link>

@@ -194,7 +194,8 @@ export default function GovernancePage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url(/images/school3.jpeg)",
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1920&h=1080&fit=crop&auto=format)",
           }}
         >
           <div className="absolute inset-0 bg-black/55" />

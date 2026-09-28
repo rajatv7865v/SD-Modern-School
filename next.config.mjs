@@ -30,6 +30,21 @@ const nextConfig = {
         destination: '/governance',
         permanent: true,
       },
+      {
+        source: '/sanitation-certificate',
+        destination: '/water-sanitation-certificate',
+        permanent: true,
+      },
+      {
+        source: '/water-certificate',
+        destination: '/water-sanitation-certificate',
+        permanent: true,
+      },
+      {
+        source: '/drinking-water-certificate',
+        destination: '/water-sanitation-certificate',
+        permanent: true,
+      },
     ];
   },
 };

@@ -88,6 +88,23 @@ export default function More() {
                 </svg>
               </Link>
               <Link
+                href="/water-sanitation-certificate"
+                className="flex items-center gap-4 w-full p-4 sm:p-5 rounded-xl border border-gray-200 bg-white hover:border-primary-300 hover:bg-primary-50/50 transition-colors touch-manipulation active:scale-[0.98]"
+              >
+                <span className="flex-shrink-0 w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </span>
+                <div className="text-left min-w-0 flex-1">
+                  <span className="block font-semibold text-gray-800">Safe Drinking Water &amp; Sanitation Certificate</span>
+                  <span className="block text-sm text-gray-500 mt-0.5">CMO Office G.B. Nagar Certificate No. 153 &amp; Lab Report</span>
+                </div>
+                <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
                 href="/privacy-policy"
                 className="flex items-center gap-4 w-full p-4 sm:p-5 rounded-xl border border-gray-200 bg-white hover:border-primary-300 hover:bg-primary-50/50 transition-colors touch-manipulation active:scale-[0.98]"
               >

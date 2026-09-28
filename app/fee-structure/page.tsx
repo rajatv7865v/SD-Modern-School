@@ -28,7 +28,8 @@ export default function FeeStructurePage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url(/images/school.jpeg)",
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1920&h=1080&fit=crop&auto=format)",
           }}
         >
           <div className="absolute inset-0 bg-black/55" />
