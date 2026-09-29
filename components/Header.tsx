@@ -32,13 +32,14 @@ export default function Header() {
       ],
     },
     {
-      href: "/building-safety-certificate",
+      href: "/mandatory-public-disclosure",
       label: "Certificates",
       submenu: [
+        { href: "/mandatory-public-disclosure", label: "Mandatory Public Disclosure (Appendix-IX)" },
+        { href: "/cbse-appendix-ii", label: "CBSE Appendix-II (DEO Certificate)" },
         { href: "/building-safety-certificate", label: "Building Safety Certificate" },
         { href: "/fire-safety-certificate", label: "Fire Safety Certificate (NOC)" },
         { href: "/school-recognition-certificate", label: "School Recognition Certificate (RTE)" },
-        { href: "/cbse-appendix-ii", label: "CBSE Appendix-II (DEO Certificate)" },
         { href: "/water-sanitation-certificate", label: "Water & Sanitation Certificate" },
       ],
     },

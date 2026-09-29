@@ -78,6 +78,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/mandatory-public-disclosure" className="hover:text-white transition-colors">
+                  Mandatory Public Disclosure (Appendix-IX)
+                </Link>
+              </li>
+              <li>
                 <Link href="/building-safety-certificate" className="hover:text-white transition-colors">
                   Building Safety Certificate
                 </Link>
@@ -152,6 +157,11 @@ export default function Footer() {
               <li>
                 <Link href="/pta-executive-committee" className="hover:text-white transition-colors">
                   PTA Executive Committee
+                </Link>
+              </li>
+              <li>
+                <Link href="/mandatory-public-disclosure" className="hover:text-white transition-colors">
+                  Mandatory Public Disclosure (Appendix-IX)
                 </Link>
               </li>
               <li>

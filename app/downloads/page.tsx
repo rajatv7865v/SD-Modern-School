@@ -178,6 +178,17 @@ export default function Downloads() {
     },
     // Certificates
     {
+      id: 58,
+      category: 'certificates',
+      title: 'CBSE Appendix-IX (Mandatory Public Disclosure)',
+      description: 'Official 5-page SARAS 7.0 Mandatory Public Disclosure including general information, statutory documents, academics, staff profiles, and infrastructure details',
+      fileType: 'PDF',
+      size: '6.4 MB',
+      date: '2026-09-29',
+      downloadUrl: '/documents/cbse-appendix-ix-mandatory-public-disclosure.pdf',
+      pageUrl: '/mandatory-public-disclosure',
+    },
+    {
       id: 53,
       category: 'certificates',
       title: 'Building Safety Certificate (2026–29)',

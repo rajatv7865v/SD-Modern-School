@@ -140,6 +140,31 @@ const nextConfig = {
         destination: '/cbse-appendix-ii',
         permanent: true,
       },
+      {
+        source: '/appendix-ix',
+        destination: '/mandatory-public-disclosure',
+        permanent: true,
+      },
+      {
+        source: '/appendix-9',
+        destination: '/mandatory-public-disclosure',
+        permanent: true,
+      },
+      {
+        source: '/cbse-appendix-ix',
+        destination: '/mandatory-public-disclosure',
+        permanent: true,
+      },
+      {
+        source: '/mandatory-disclosure',
+        destination: '/mandatory-public-disclosure',
+        permanent: true,
+      },
+      {
+        source: '/saras',
+        destination: '/mandatory-public-disclosure',
+        permanent: true,
+      },
     ];
   },
 };
