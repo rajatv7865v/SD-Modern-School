@@ -165,6 +165,21 @@ const nextConfig = {
         destination: '/mandatory-public-disclosure',
         permanent: true,
       },
+      {
+        source: '/mandatory-disclosure-details',
+        destination: '/mandatory-disclosure-details-sdms',
+        permanent: true,
+      },
+      {
+        source: '/mandatory-disclosure-sdms',
+        destination: '/mandatory-disclosure-details-sdms',
+        permanent: true,
+      },
+      {
+        source: '/disclosure-details-sdms',
+        destination: '/mandatory-disclosure-details-sdms',
+        permanent: true,
+      },
     ];
   },
 };

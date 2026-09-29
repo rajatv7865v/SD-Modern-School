@@ -78,8 +78,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/mandatory-public-disclosure" className="hover:text-white transition-colors">
-                  Mandatory Public Disclosure (Appendix-IX)
+                <Link href="/mandatory-disclosure-details-sdms" className="hover:text-white transition-colors">
+                  Mandatory Disclosure Details SDMS
                 </Link>
               </li>
               <li>
@@ -160,8 +160,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/mandatory-public-disclosure" className="hover:text-white transition-colors">
-                  Mandatory Public Disclosure (Appendix-IX)
+                <Link href="/mandatory-disclosure-details-sdms" className="hover:text-white transition-colors">
+                  Mandatory Disclosure Details SDMS
                 </Link>
               </li>
               <li>

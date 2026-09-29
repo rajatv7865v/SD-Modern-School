@@ -218,7 +218,7 @@ export default function MandatoryPublicDisclosurePage() {
               SARAS 7.0 • APPENDIX - IX • CBSE MANDATORY DISCLOSURE
             </span>
             <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold mb-3 drop-shadow-lg max-w-4xl mx-auto leading-tight">
-              Mandatory Public Disclosure
+              Mandatory Disclosure Details SDMS
             </h1>
             <p className="text-base sm:text-xl font-medium text-teal-100 max-w-3xl mx-auto">
               S.D. MODERN SCHOOL, GIJHOR, SECTOR-53, NOIDA (U.P.)

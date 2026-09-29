@@ -461,10 +461,10 @@ export default function CBSEAppendixIIPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <Link
-              href="/mandatory-public-disclosure"
+              href="/mandatory-disclosure-details-sdms"
               className="bg-amber-400 hover:bg-amber-300 text-gray-900 px-5 py-2 rounded-lg font-bold text-sm transition-all shadow-md"
             >
-              Appendix-IX (Mandatory Disclosure) →
+              Mandatory Disclosure Details SDMS →
             </Link>
             <Link
               href="/school-recognition-certificate"

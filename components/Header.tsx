@@ -32,10 +32,10 @@ export default function Header() {
       ],
     },
     {
-      href: "/mandatory-public-disclosure",
+      href: "/mandatory-disclosure-details-sdms",
       label: "Certificates",
       submenu: [
-        { href: "/mandatory-public-disclosure", label: "Mandatory Public Disclosure (Appendix-IX)" },
+        { href: "/mandatory-disclosure-details-sdms", label: "Mandatory Disclosure Details SDMS" },
         { href: "/cbse-appendix-ii", label: "CBSE Appendix-II (DEO Certificate)" },
         { href: "/building-safety-certificate", label: "Building Safety Certificate" },
         { href: "/fire-safety-certificate", label: "Fire Safety Certificate (NOC)" },
@@ -130,8 +130,13 @@ export default function Header() {
               
             </div>
             <div className="flex items-center gap-3">
-             
-              
+              <Link
+                href="/mandatory-disclosure-details-sdms"
+                className="bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-3 py-1 rounded-full text-xs transition-all shadow-sm hidden md:inline-flex items-center gap-1.5"
+              >
+                <span className="w-2 h-2 rounded-full bg-red-600 animate-pulse"></span>
+                <span>Mandatory Disclosure Details SDMS</span>
+              </Link>
               <a
                 href="https://www.google.com/maps/search/?api=1&query=Gijhore+Sector+53+Noida+Uttar+Pradesh+201307"
                 target="_blank"
@@ -199,7 +204,7 @@ export default function Header() {
                         </svg>
                       </button>
                       {openDropdown === link.label && (
-                        <div className="absolute top-full left-0 mt-1 w-56 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                        <div className="absolute top-full left-0 mt-1 w-72 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
                           {link.submenu.map((subItem) => (
                             <Link
                               key={subItem.href}
@@ -259,6 +264,17 @@ export default function Header() {
           {/* Mobile Navigation */}
           {isMenuOpen && (
             <div className="lg:hidden mt-4 pb-4 space-y-2">
+              <Link
+                href="/mandatory-disclosure-details-sdms"
+                className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-amber-400 text-gray-900 font-bold rounded-lg text-sm shadow-sm mb-2"
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  setOpenDropdown(null);
+                }}
+              >
+                <span className="w-2 h-2 rounded-full bg-red-600 animate-pulse"></span>
+                <span>Mandatory Disclosure Details SDMS</span>
+              </Link>
               {navLinks.map((link) => (
                 <div key={link.label || link.href}>
                   {link.submenu ? (

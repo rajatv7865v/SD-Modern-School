@@ -88,7 +88,7 @@ export default function More() {
                 </svg>
               </Link>
               <Link
-                href="/mandatory-public-disclosure"
+                href="/mandatory-disclosure-details-sdms"
                 className="flex items-center gap-4 w-full p-4 sm:p-5 rounded-xl border border-gray-200 bg-white hover:border-amber-400 hover:bg-amber-50/50 transition-colors touch-manipulation active:scale-[0.98]"
               >
                 <span className="flex-shrink-0 w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center">
@@ -97,8 +97,8 @@ export default function More() {
                   </svg>
                 </span>
                 <div className="text-left min-w-0 flex-1">
-                  <span className="block font-semibold text-gray-800">Mandatory Public Disclosure (Appendix-IX)</span>
-                  <span className="block text-sm text-gray-500 mt-0.5">CBSE SARAS 7.0 Mandatory Disclosure, 18 Faculty Profiles &amp; Infrastructure</span>
+                  <span className="block font-semibold text-gray-800">Mandatory Disclosure Details SDMS</span>
+                  <span className="block text-sm text-gray-500 mt-0.5">CBSE SARAS 7.0 Mandatory Disclosure (Appendix-IX), 18 Faculty Profiles &amp; Campus Infrastructure</span>
                 </div>
                 <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
