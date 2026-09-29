@@ -318,6 +318,12 @@ export default function WaterSanitationCertificatePage() {
               Building Safety Certificate
             </Link>
             <Link
+              href="/cbse-appendix-ii"
+              className="bg-primary-700/80 hover:bg-primary-700 text-white border border-primary-500 px-5 py-2 rounded-lg font-semibold text-sm transition-all"
+            >
+              CBSE Appendix-II (DEO)
+            </Link>
+            <Link
               href="/governance"
               className="bg-primary-700/80 hover:bg-primary-700 text-white border border-primary-500 px-5 py-2 rounded-lg font-semibold text-sm transition-all"
             >

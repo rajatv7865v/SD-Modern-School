@@ -93,6 +93,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/cbse-appendix-ii" className="hover:text-white transition-colors">
+                  CBSE Appendix-II (DEO Certificate)
+                </Link>
+              </li>
+              <li>
                 <Link href="/water-sanitation-certificate" className="hover:text-white transition-colors">
                   Water & Sanitation Certificate
                 </Link>
@@ -162,6 +167,11 @@ export default function Footer() {
               <li>
                 <Link href="/school-recognition-certificate" className="hover:text-white transition-colors">
                   School Recognition Certificate (RTE)
+                </Link>
+              </li>
+              <li>
+                <Link href="/cbse-appendix-ii" className="hover:text-white transition-colors">
+                  CBSE Appendix-II (DEO Certificate)
                 </Link>
               </li>
               <li>

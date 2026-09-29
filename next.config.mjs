@@ -115,6 +115,31 @@ const nextConfig = {
         destination: '/pta-executive-committee',
         permanent: true,
       },
+      {
+        source: '/appendix-ii',
+        destination: '/cbse-appendix-ii',
+        permanent: true,
+      },
+      {
+        source: '/appendix-2',
+        destination: '/cbse-appendix-ii',
+        permanent: true,
+      },
+      {
+        source: '/deo-certificate',
+        destination: '/cbse-appendix-ii',
+        permanent: true,
+      },
+      {
+        source: '/cbse-affiliation',
+        destination: '/cbse-appendix-ii',
+        permanent: true,
+      },
+      {
+        source: '/self-certification',
+        destination: '/cbse-appendix-ii',
+        permanent: true,
+      },
     ];
   },
 };

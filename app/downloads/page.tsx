@@ -211,6 +211,17 @@ export default function Downloads() {
       pageUrl: '/school-recognition-certificate',
     },
     {
+      id: 57,
+      category: 'certificates',
+      title: 'CBSE Appendix-II (DEO Certificate)',
+      description: 'Official 4-page District Education Officer certificate & self-certification for CBSE affiliation compliance',
+      fileType: 'PDF',
+      size: '635 KB',
+      date: '2026-09-29',
+      downloadUrl: '/documents/cbse-appendix-ii-certificate.pdf',
+      pageUrl: '/cbse-appendix-ii',
+    },
+    {
       id: 52,
       category: 'certificates',
       title: 'Safe Drinking Water & Sanitary Condition Certificate (2026–27)',

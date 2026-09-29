@@ -157,6 +157,23 @@ export default function More() {
                 </svg>
               </Link>
               <Link
+                href="/cbse-appendix-ii"
+                className="flex items-center gap-4 w-full p-4 sm:p-5 rounded-xl border border-gray-200 bg-white hover:border-indigo-300 hover:bg-indigo-50/50 transition-colors touch-manipulation active:scale-[0.98]"
+              >
+                <span className="flex-shrink-0 w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                  </svg>
+                </span>
+                <div className="text-left min-w-0 flex-1">
+                  <span className="block font-semibold text-gray-800">CBSE Appendix-II (DEO Certificate)</span>
+                  <span className="block text-sm text-gray-500 mt-0.5">Official 4-Page Self-Certification &amp; Land Verification for CBSE Affiliation</span>
+                </div>
+                <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
                 href="/water-sanitation-certificate"
                 className="flex items-center gap-4 w-full p-4 sm:p-5 rounded-xl border border-gray-200 bg-white hover:border-primary-300 hover:bg-primary-50/50 transition-colors touch-manipulation active:scale-[0.98]"
               >
