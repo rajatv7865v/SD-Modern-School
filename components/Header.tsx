@@ -22,13 +22,22 @@ export default function Header() {
     },
     { href: "/trust", label: "Trust & Society" },
     { href: "/academic-planner", label: "Academic Planner" },
-    { href: "/fee-structure", label: "Fee Structure" },
-    { href: "/governance", label: "Governance" },
+    {
+      href: "/governance",
+      label: "Governance",
+      submenu: [
+        { href: "/governance", label: "School Management Committee (SMC)" },
+        { href: "/pta-executive-committee", label: "PTA Executive Committee" },
+        { href: "/trust", label: "Trust & Society" },
+      ],
+    },
     {
       href: "/building-safety-certificate",
       label: "Certificates",
       submenu: [
         { href: "/building-safety-certificate", label: "Building Safety Certificate" },
+        { href: "/fire-safety-certificate", label: "Fire Safety Certificate (NOC)" },
+        { href: "/school-recognition-certificate", label: "School Recognition Certificate (RTE)" },
         { href: "/water-sanitation-certificate", label: "Water & Sanitation Certificate" },
       ],
     },

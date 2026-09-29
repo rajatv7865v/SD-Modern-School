@@ -298,30 +298,30 @@ export default function WaterSanitationCertificatePage() {
           <p className="text-primary-100 text-sm sm:text-base max-w-2xl mx-auto mb-6">
             Review our Fee Structure, Yearly Academic Planner, and School Management Committee rosters.
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link
+              href="/fire-safety-certificate"
+              className="bg-white text-primary-800 hover:bg-primary-50 px-5 py-2 rounded-lg font-bold text-sm transition-all shadow-md"
+            >
+              Fire Safety NOC (2026–31) →
+            </Link>
+            <Link
+              href="/school-recognition-certificate"
+              className="bg-primary-700/80 hover:bg-primary-700 text-white border border-primary-500 px-5 py-2 rounded-lg font-semibold text-sm transition-all"
+            >
+              School Recognition Certificate (RTE)
+            </Link>
             <Link
               href="/building-safety-certificate"
-              className="bg-white text-primary-800 hover:bg-primary-50 px-6 py-2.5 rounded-lg font-bold text-sm transition-all shadow-lg"
+              className="bg-primary-700/80 hover:bg-primary-700 text-white border border-primary-500 px-5 py-2 rounded-lg font-semibold text-sm transition-all"
             >
-              Building Safety Certificate →
-            </Link>
-            <Link
-              href="/fee-structure"
-              className="bg-primary-700/80 hover:bg-primary-700 text-white border border-primary-500 px-6 py-2.5 rounded-lg font-semibold text-sm transition-all"
-            >
-              Fee Structure (2026–27)
-            </Link>
-            <Link
-              href="/academic-planner"
-              className="bg-primary-700/80 hover:bg-primary-700 text-white border border-primary-500 px-6 py-2.5 rounded-lg font-semibold text-sm transition-all"
-            >
-              Yearly Academic Planner
+              Building Safety Certificate
             </Link>
             <Link
               href="/governance"
-              className="bg-primary-700/80 hover:bg-primary-700 text-white border border-primary-500 px-6 py-2.5 rounded-lg font-semibold text-sm transition-all"
+              className="bg-primary-700/80 hover:bg-primary-700 text-white border border-primary-500 px-5 py-2 rounded-lg font-semibold text-sm transition-all"
             >
-              School Management (SMC)
+              SMC &amp; Committees
             </Link>
           </div>
         </div>

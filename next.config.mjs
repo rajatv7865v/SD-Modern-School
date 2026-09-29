@@ -65,6 +65,56 @@ const nextConfig = {
         destination: '/building-safety-certificate',
         permanent: true,
       },
+      {
+        source: '/fire-safety',
+        destination: '/fire-safety-certificate',
+        permanent: true,
+      },
+      {
+        source: '/fire-certificate',
+        destination: '/fire-safety-certificate',
+        permanent: true,
+      },
+      {
+        source: '/fire-noc',
+        destination: '/fire-safety-certificate',
+        permanent: true,
+      },
+      {
+        source: '/recognition',
+        destination: '/school-recognition-certificate',
+        permanent: true,
+      },
+      {
+        source: '/recognition-certificate',
+        destination: '/school-recognition-certificate',
+        permanent: true,
+      },
+      {
+        source: '/rte',
+        destination: '/school-recognition-certificate',
+        permanent: true,
+      },
+      {
+        source: '/rte-certificate',
+        destination: '/school-recognition-certificate',
+        permanent: true,
+      },
+      {
+        source: '/pta',
+        destination: '/pta-executive-committee',
+        permanent: true,
+      },
+      {
+        source: '/pta-committee',
+        destination: '/pta-executive-committee',
+        permanent: true,
+      },
+      {
+        source: '/parent-teacher-association',
+        destination: '/pta-executive-committee',
+        permanent: true,
+      },
     ];
   },
 };

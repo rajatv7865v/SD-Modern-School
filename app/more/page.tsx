@@ -80,8 +80,25 @@ export default function More() {
                   </svg>
                 </span>
                 <div className="text-left min-w-0 flex-1">
-                  <span className="block font-semibold text-gray-800">School Management &amp; Committees</span>
-                  <span className="block text-sm text-gray-500 mt-0.5">SMC, PTA Executive Committee &amp; Student Strength</span>
+                  <span className="block font-semibold text-gray-800">School Management Committee (SMC)</span>
+                  <span className="block text-sm text-gray-500 mt-0.5">SMC Constitution, Member Roles &amp; Student Strength</span>
+                </div>
+                <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
+                href="/pta-executive-committee"
+                className="flex items-center gap-4 w-full p-4 sm:p-5 rounded-xl border border-gray-200 bg-white hover:border-emerald-300 hover:bg-emerald-50/50 transition-colors touch-manipulation active:scale-[0.98]"
+              >
+                <span className="flex-shrink-0 w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                  </svg>
+                </span>
+                <div className="text-left min-w-0 flex-1">
+                  <span className="block font-semibold text-gray-800">PTA Executive Committee</span>
+                  <span className="block text-sm text-gray-500 mt-0.5">Parent Teacher Association Roster &amp; Official Scan (2026–27)</span>
                 </div>
                 <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -99,6 +116,41 @@ export default function More() {
                 <div className="text-left min-w-0 flex-1">
                   <span className="block font-semibold text-gray-800">Building Safety Certificate</span>
                   <span className="block text-sm text-gray-500 mt-0.5">Rural Engineering Dept. Annexure-D (NBC-2016 Compliant)</span>
+                </div>
+                <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
+                href="/fire-safety-certificate"
+                className="flex items-center gap-4 w-full p-4 sm:p-5 rounded-xl border border-gray-200 bg-white hover:border-red-300 hover:bg-red-50/50 transition-colors touch-manipulation active:scale-[0.98]"
+              >
+                <span className="flex-shrink-0 w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg>
+                </span>
+                <div className="text-left min-w-0 flex-1">
+                  <span className="block font-semibold text-gray-800">Fire Safety Certificate (NOC)</span>
+                  <span className="block text-sm text-gray-500 mt-0.5">U.P. Fire Service CFO Completion NOC (5-Year Term: 2026–2031)</span>
+                </div>
+                <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
+                href="/school-recognition-certificate"
+                className="flex items-center gap-4 w-full p-4 sm:p-5 rounded-xl border border-gray-200 bg-white hover:border-blue-300 hover:bg-blue-50/50 transition-colors touch-manipulation active:scale-[0.98]"
+              >
+                <span className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </span>
+                <div className="text-left min-w-0 flex-1">
+                  <span className="block font-semibold text-gray-800">School Recognition Certificate (RTE)</span>
+                  <span className="block text-sm text-gray-500 mt-0.5">District Basic Education Officer Order (Code: G.J.H.S-206)</span>
                 </div>
                 <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

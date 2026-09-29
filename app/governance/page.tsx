@@ -368,12 +368,20 @@ export default function GovernancePage() {
                     Dedicated executive body for academic session 2026–2027
                   </p>
                 </div>
-                <button
-                  onClick={() => setSelectedDocPage(6)}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary-50 text-primary-700 text-xs font-semibold hover:bg-primary-100 transition-colors self-start sm:self-auto border border-primary-200"
-                >
-                  <span>🔍</span> View Signed PTA Scan
-                </button>
+                <div className="flex flex-wrap items-center gap-2 self-start sm:self-auto">
+                  <button
+                    onClick={() => setSelectedDocPage(6)}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary-50 text-primary-700 text-xs font-semibold hover:bg-primary-100 transition-colors border border-primary-200"
+                  >
+                    <span>🔍</span> View Signed Scan
+                  </button>
+                  <Link
+                    href="/pta-executive-committee"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-xs font-semibold hover:bg-emerald-700 transition-colors shadow-sm"
+                  >
+                    Dedicated PTA Page →
+                  </Link>
+                </div>
               </div>
 
               <div className="overflow-x-auto rounded-xl border border-gray-200 mt-6">
@@ -411,6 +419,23 @@ export default function GovernancePage() {
                     ))}
                   </tbody>
                 </table>
+              </div>
+
+              <div className="mt-6 p-4 rounded-xl bg-gradient-to-r from-emerald-50 to-primary-50 border border-emerald-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="text-left">
+                  <h4 className="font-bold text-gray-900 text-sm">
+                    Looking for the full PTA Executive Committee Page?
+                  </h4>
+                  <p className="text-xs text-gray-600 mt-0.5">
+                    Explore member credentials, committee objectives, interactive signed scan viewer, and standalone PDF download.
+                  </p>
+                </div>
+                <Link
+                  href="/pta-executive-committee"
+                  className="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs whitespace-nowrap shadow-sm transition-colors"
+                >
+                  Visit Dedicated PTA Page →
+                </Link>
               </div>
             </div>
           )}

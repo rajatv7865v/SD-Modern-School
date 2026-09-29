@@ -73,8 +73,23 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/pta-executive-committee" className="hover:text-white transition-colors">
+                  PTA Executive Committee
+                </Link>
+              </li>
+              <li>
                 <Link href="/building-safety-certificate" className="hover:text-white transition-colors">
                   Building Safety Certificate
+                </Link>
+              </li>
+              <li>
+                <Link href="/fire-safety-certificate" className="hover:text-white transition-colors">
+                  Fire Safety Certificate (NOC)
+                </Link>
+              </li>
+              <li>
+                <Link href="/school-recognition-certificate" className="hover:text-white transition-colors">
+                  School Recognition Certificate (RTE)
                 </Link>
               </li>
               <li>
@@ -130,8 +145,23 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/pta-executive-committee" className="hover:text-white transition-colors">
+                  PTA Executive Committee
+                </Link>
+              </li>
+              <li>
                 <Link href="/building-safety-certificate" className="hover:text-white transition-colors">
                   Building Safety Certificate
+                </Link>
+              </li>
+              <li>
+                <Link href="/fire-safety-certificate" className="hover:text-white transition-colors">
+                  Fire Safety Certificate (NOC)
+                </Link>
+              </li>
+              <li>
+                <Link href="/school-recognition-certificate" className="hover:text-white transition-colors">
+                  School Recognition Certificate (RTE)
                 </Link>
               </li>
               <li>
